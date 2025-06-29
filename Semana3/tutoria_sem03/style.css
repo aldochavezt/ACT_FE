@@ -1,0 +1,98 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(230, 230, 230);
+}
+
+.header {
+    border: 1px solid rgb(218, 218, 218);
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.title {
+    text-align: center;
+    text-transform:uppercase;
+    font-size: 1rem;
+}
+
+.nav-list {
+    list-style-type: none;
+}
+
+.nav-list-item, .nav,.title {
+    display: inline-block;
+}
+
+.nav-list-item a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+
+.active a {
+    color: blue;
+}
+
+/* =========== */
+
+.card {
+    position: relative;
+    width: 400px;
+    width: 250px;
+    border-radius: 20px;
+    background-color: white;
+    display: inline-block;
+   
+}
+
+.card-header-img {
+    width: 100%;
+    height: 150px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.card-content, .card-footer {
+    /* Explicado mas adelante */
+    padding: 10px;
+}
+
+.card-content-badge {
+    word-break: break-all;
+    border:1px solid;
+    height: 20px;
+    width: 100px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.badge-primary {
+    background-color: rgb(113, 113, 251);
+    color: white;
+}
+
+.card-footer {
+    width: 100%;
+}
+
+.card-footer-img {
+    width: 20px;
+    border-radius: 100%;
+    border: 1px solid black;
+}
+
+.card-footer-content p , .card-footer-content span {
+    display: inline;
+    vertical-align: top;
+    margin-left: 10px;
+    font-size: 13px;
+   
+}
+
+/* .badge {
+    border: 1px solid green;
+    height: 50px;
+} */
+
+
