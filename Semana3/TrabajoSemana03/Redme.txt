@@ -1,0 +1,5 @@
+1. Panel de Navegación con Emojis
+2. Letaras de banner de Header en color blanco
+Se ajusto el alto de las imagenes en alto
+3. Para cada articulo o tarjeta (Card), se puso varias etiquetas, las cualas se uso varios Badge.
+Se crea formularios para contacto y check box para aceptar politicas de la empresa.
